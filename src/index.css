@@ -1,0 +1,80 @@
+:root {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #1d3026;
+  background: #f8f7f0;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --forest: #173e2e;
+  --forest-deep: #123526;
+  --forest-soft: #e8eee7;
+  --cream: #f8f7f0;
+  --paper: #fffefa;
+  --ink: #1d3026;
+  --muted: #73786f;
+  --terracotta: #bd6745;
+  --line: #e6e5dc;
+  --serif: Georgia, 'Times New Roman', serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 94px;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+}
+
+body,
+button,
+a {
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+::selection {
+  color: #fffefa;
+  background: #41654c;
+}
+
+:focus-visible {
+  outline: 3px solid #bd6745;
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
